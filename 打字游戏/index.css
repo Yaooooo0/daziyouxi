@@ -103,11 +103,10 @@
     position: absolute;
     bottom:1.42rem;
     right:0.24rem;
+    background: url("img/Pause.png");
+    background-size: cover;
 }
-.pauseButton img{
-    display: block;
-    width:100%;
-}
+
 /*.rabbit{*/
     /*width: 0.45rem;*/
     /*height: 0.7rem;*/
