@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b5622f5-aac5-44b2-bb79-a78ba1a41fb8" name="Default Changelist" comment="" />
+    <list default="true" id="9b5622f5-aac5-44b2-bb79-a78ba1a41fb8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/打字游戏/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/打字游戏/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/打字游戏/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-257">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="19">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -22,16 +24,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/打字游戏/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
+            <state relative-caret-position="447">
+              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/打字游戏/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
+            <state relative-caret-position="612">
               <caret line="105" column="34" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="34" />
             </state>
           </provider>
@@ -69,8 +71,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="817" />
-    <option name="y" value="26" />
+    <option name="x" value="657" />
+    <option name="y" value="7" />
     <option name="width" value="1050" />
     <option name="height" value="1040" />
   </component>
@@ -130,14 +132,15 @@
       <workItem from="1565739534165" duration="28566000" />
       <workItem from="1565828076419" duration="3248000" />
       <workItem from="1565862065672" duration="1408000" />
+      <workItem from="1565957171611" duration="161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34382000" />
+    <option name="totallyTimeSpent" value="34543000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="654" y="21" width="840" height="832" extended-state="0" />
+    <frame x="526" y="6" width="840" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22972973" />
@@ -183,24 +186,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/打字游戏/index.html">
+    <entry file="file://$PROJECT_DIR$/打字游戏/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="612">
+          <caret line="105" column="34" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/打字游戏/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
+        <state relative-caret-position="447">
+          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/打字游戏/index.css">
+    <entry file="file://$PROJECT_DIR$/打字游戏/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="105" column="34" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="34" />
+        <state relative-caret-position="19">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

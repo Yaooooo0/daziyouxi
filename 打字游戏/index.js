@@ -133,11 +133,14 @@ window.onload = function () {
                             return item
                         }
                     })
-                    this.removeChild(index)
-                    
+                    if(index!=-1){
+                         this.removeChild(index)
+
                    this.point0= parseInt(this.point.innerText)
                     this.point0+=5
                     this.point.innerText=this.point0
+                    }
+
                 }
             }
 
