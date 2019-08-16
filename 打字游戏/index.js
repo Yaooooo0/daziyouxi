@@ -2,12 +2,14 @@ window.onload = function () {
 
 
     class Game {
-        constructor(screenClassName,btn,keyBoard,life,point) {     //constructor 属性返回对象的构造函数。
+        constructor(screenClassName,btn,keyBoard,life,point,alertEle,btn1) {     //constructor 属性返回对象的构造函数。
             this.screen = document.querySelector(screenClassName)
             this.btn = document.querySelector(btn)
             this.span = document.querySelector(keyBoard)
             this.life=document.querySelector(life)
             this.point=document.querySelector(point)
+            this.alertEle=document.querySelector(alertEle)
+            this.btn1=document.querySelector(btn1)
             this.letters = []
             this.isKill=false
             this.runToggle()
@@ -81,14 +83,20 @@ window.onload = function () {
         run() {
                 this.t = setInterval(() => {
                     this.letters.forEach((item, index) => {
-                        item.top += 0.3
+                        item.top += 0.005
                         item.node.style.top = item.top + 'rem'
                         if (item.top > 8.9) {
                             this.removeChild(index)
-                            this.life.innerText-=5
+                            this.life.innerText-=20
+                            if(this.life.innerText==0){
+                                clearInterval(this.t)
+                                this.alertEle.style="display:block"
+                                let finaly=document.querySelector(".alert span")
+                                finaly.innerHTML=this.point.innerText
+                            }
                         }
                     })
-                }, 500)
+                }, 5)
                     
         }
         //控制暂停开始
@@ -144,11 +152,24 @@ window.onload = function () {
            
         }
 
-     
+        btn1Ele(){
+            this.btn1.ontouchend=function () {
+                game.alertEle.style="display:none;"
+               game.screen.innerHTML=""
+              game.letters=[]
+                game.run()
+               game.createLetter();
+                game.life.innerText=100
+                game.point.innerText=0
+            }
+        }
+
+
+
     }
 
 
-    let game = new Game(".screen", ".pauseButton",".keyBoard",".life",".point")
-
+    let game = new Game(".screen", ".pauseButton",".keyBoard",".life",".point",".alert",".btn")
+    game.btn1Ele()
 
 }
